@@ -27,7 +27,6 @@ function savetoDatabase() {
     method: "post",
     payload: JSON.stringify(formBody),
     headers: {
-      // 'authorization':'Basic RXhwZXJpbWVudDowNjdmMDRlOTJkZGI=',
       "Content-Type": "application/json",
       Accept: "application/json",
     },
